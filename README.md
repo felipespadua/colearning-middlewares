@@ -59,5 +59,5 @@ Estruruta de user:
 
 ## 3. Usar a rota de consulta de um determinado usuário para retornar o usuário ao clicar no botão "Exibir" e renderizar-lo na tela.
 
-## 4. Usar a rota de edição de usuário para 
+## 4. Ao clicar no botão "Editar", um novo formulario deverá ser carregado com os dados preenchidos com um botão "Confirmar". Ao clicar o botão "Confirmar", os dados do usuário deverão ser atualizados pela rota de edição.
 
