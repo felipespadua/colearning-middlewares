@@ -57,3 +57,7 @@ Estruruta de user:
 
 ## 2. Usar a rota de consulta de todos os usuário para preencher a tabela dinamicamente
 
+## 3. Usar a rota de consulta de um determinado usuário para retornar o usuário ao clicar no botão "Exibir" e renderizar-lo na tela.
+
+## 4. Usar a rota de edição de usuário para 
+
