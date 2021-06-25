@@ -18,16 +18,42 @@ de um formulário para o servidor para a criação ou atualização de um recurs
 
 # Exercícios
 
-## 1. Criar controller userController com as seguintes operações:
+## 1. Criar rotas de Consulta, Criação, Edição e Deleção de usuário
 
-##getUsers => retornar todos os usuários
-##getUser => retornar um determinado usuário
-##createUser => cria um usuário
-1. Criar função createUser no userController 
-2. Criar router que vincula o path à função createUser
-3. Passar o router no app.use()
-4. Verificar se o path do formulário está correto
-5. Implementar função createUser para inserir um novo usuário em um array de usuários
+Estruruta de user:
+{
+    name: "Felipe",
+    idade: 26,
+    genero: "Masculino",
+    pathImage: "public/wrgretwrer2242fsdfg3422"
+}
 
-##updateUser => atualiza um usuário
-##deleteUser => deleta um usuário 
+### Rota Consulta de um usuário
+1. método GET
+2. userController.getUser 
+3. retorna um determinado usuário identificado pelo id
+
+### Rota Consulta de todos usuários
+1. método GET
+2. userController.getUsers
+3. retorna todos os usuários
+
+### Rota Criação
+1. userController.createUser
+2. método POST 
+3. middleware multer
+4. cria um usuário e insere no array de usuários
+
+### Rota Edição
+1. userController.updateUser
+2. método PUT 
+3. edita um usuário identificado pelo id
+
+### Rota Deleção
+1. userController.deleteUser
+2. método DELETE 
+3. exclui um usuário identificado pelo id
+
+
+## 2. Usar a rota de consulta de todos os usuário para preencher a tabela dinamicamente
+
