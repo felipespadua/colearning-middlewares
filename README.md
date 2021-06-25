@@ -18,10 +18,16 @@ de um formulário para o servidor para a criação ou atualização de um recurs
 
 # Exercícios
 
-### 1. Criar controller userController com as seguintes operações:
+## 1. Criar controller userController com as seguintes operações:
 
-getUsers => retornar todos os usuários
-getUser => retornar um determinado usuário
-createUser => cria um usuário
-updateUser => atualiza um usuário
-deleteUser => deleta um usuário 
+##getUsers => retornar todos os usuários
+##getUser => retornar um determinado usuário
+##createUser => cria um usuário
+1. Criar função createUser no userController 
+2. Criar router que vincula o path à função createUser
+3. Passar o router no app.use()
+4. Verificar se o path do formulário está correto
+5. Implementar função createUser para inserir um novo usuário em um array de usuários
+
+##updateUser => atualiza um usuário
+##deleteUser => deleta um usuário 
